@@ -17,10 +17,6 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 ![screenshot3](https://github.com/Hooooong/Pholar/blob/master/img/screen3.PNG)
 ![screenshot4](https://github.com/Hooooong/Pholar/blob/master/img/screen4.PNG)
 
-## 소스 코드
-
-  - [전체 소스코드](https://github.com/Hooooong/Pholar/tree/master/app/src/main/java/com/hooooong/pholar)
-
 ## 사용 Skills
 
   - Firebase Authentication
@@ -48,3 +44,8 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
   - Permission
 
   - Glide
+
+
+## 소스 코드
+
+  - [전체 소스코드](https://github.com/Hooooong/Pholar/tree/master/app/src/main/java/com/hooooong/pholar)
