@@ -43,7 +43,7 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 
   - Permission
 
-  - Glide
+  - Image Loading Library ( Glide )
 
 
 ## 소스 코드
