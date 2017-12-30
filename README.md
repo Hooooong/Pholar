@@ -6,7 +6,7 @@
 배워보고 싶고, 사용해보고 싶은 기능들을 위주로 구현하였습니다.</br>
 
 ## 요약
-![table](https://github.com/Heepie/Pholar/blob/master/img/table.png)
+![Skills&Library](https://github.com/Hooooong/Pholar/blob/master/img/Skill%26Library.jpg)
 
 ## 스크린샷
 ![screenshot1](https://github.com/Heepie/Pholar/blob/master/img/screen1.PNG)
