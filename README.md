@@ -9,7 +9,7 @@
 ![Skills&Library](https://github.com/Hooooong/Pholar/blob/master/img/Skill%26Library.jpg)
 
 ## 스크린샷
-![screenshot1](https://github.com/Heepie/Pholar/blob/master/img/screen1.PNG)
-![screenshot2](https://github.com/Heepie/Pholar/blob/master/img/screen2.PNG)
-![screenshot3](https://github.com/Heepie/Pholar/blob/master/img/screen3.PNG)
-![screenshot4](https://github.com/Heepie/Pholar/blob/master/img/screen4.PNG)
+![screenshot1](https://github.com/Hooooong/Pholar/blob/master/img/screen1.JPG)
+![screenshot2](https://github.com/Hooooong/Pholar/blob/master/img/screen2.JPG)
+![screenshot3](https://github.com/Hooooong/Pholar/blob/master/img/screen3.JPG)
+![screenshot4](https://github.com/Hooooong/Pholar/blob/master/img/screen4.JPG)
