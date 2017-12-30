@@ -8,14 +8,14 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 
 ## 요약
 
-![Skills&Library](https://github.com/Heepie/Pholar/blob/master/img/table.png)
+![Skills&Library](https://github.com/Hooooong/Pholar/blob/master/img/skills%26Library.PNG)
 
 ## 화면
 
-![screenshot1](https://github.com/Heepie/Pholar/blob/master/img/screen1.PNG)
-![screenshot2](https://github.com/Heepie/Pholar/blob/master/img/screen2.PNG)
-![screenshot3](https://github.com/Heepie/Pholar/blob/master/img/screen3.PNG)
-![screenshot4](https://github.com/Heepie/Pholar/blob/master/img/screen4.PNG)
+![screenshot1](https://github.com/Hooooong/Pholar/blob/master/img/screen1.PNG)
+![screenshot2](https://github.com/Hooooong/Pholar/blob/master/img/screen2.PNG)
+![screenshot3](https://github.com/Hooooong/Pholar/blob/master/img/screen3.PNG)
+![screenshot4](https://github.com/Hooooong/Pholar/blob/master/img/screen4.PNG)
 
 ## 소스 코드
 
