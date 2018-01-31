@@ -17,10 +17,10 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 
 ## 개발 환경
 
-개발 언어 : Java, JavaScript</br>
-개발 환경 : JDK 1.8, SDK(Min 16, Target 23)</br>
-데이터베이스 : Firebase Realtime DB</br>
-개발 도구 : Android Studio 3.0, Firebase Console
+- 개발 언어 : Java, JavaScript
+- 개발 환경 : JDK 1.8, SDK(Min 16, Target 23)
+- 데이터베이스 : Firebase Realtime DB
+- 개발 도구 : Android Studio 3.0, Firebase Console
 
 ## 요약
 
