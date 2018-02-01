@@ -144,16 +144,15 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 
     	admin.messaging()
     		.sendToDevice(tokens, msg)
-        // 요청이 정상적인지에 대한 콜백
+            // 요청이 정상적인지에 대한 콜백
     		.then(function(response){
     			res.status(200).send(response);
     		})
-        // 요청에 대한 실패
-        .catch(function(error){
+            // 요청에 대한 실패
+            .catch(function(error){
     			res.status(500).send(error);
     		});
     });
-
     // 생략
     ```
 
