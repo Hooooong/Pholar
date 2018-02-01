@@ -303,6 +303,8 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 
     - Image Loading Library ( Glide )
 
+    - Retrofit2 Library
+
 ## 소스 코드
 
   - [전체 소스코드](https://github.com/Hooooong/Pholar/tree/master/app/src/main/java/com/hooooong/pholar)
