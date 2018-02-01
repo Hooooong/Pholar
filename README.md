@@ -103,58 +103,58 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 
     2. Function 에 Script 를 작성하여 Notification 활성화
 
-    ```JavaScript
-    const fun = require("firebase-functions");
-    const admin = require("firebase-admin");
-    // const httpUrlConnection = require("request");
+        ```JavaScript
+        const fun = require("firebase-functions");
+        const admin = require("firebase-admin");
+        // const httpUrlConnection = require("request");
 
-    admin.initializeApp(fun.config().firebase);
+        admin.initializeApp(fun.config().firebase);
 
-    exports.sendLikeNotification = fun.https.onRequest((req, res)=>{
+        exports.sendLikeNotification = fun.https.onRequest((req, res)=>{
 
-        // 1. JSON Data Post 값을 수신
-    	// "{\"to\": \"" + token + "\", " +"\"imagePath\" : \"" + post.getPhoto().get(0).storage_path +"\"" +", \"nickName\" : \""
-    	// + nickName +", \"post_id\" : \"" + post.post_id +"\"}";
-    	// req.body 내용에 추가적으로 정보를 보내 Title, body, click_action, sound 를 변경할 수 있다.
-    	var dataObj = req.body;
-    	// 전송할 메시지 객체를 완성
-    	var msg = {
-    		notification : {
-    			title : "PHOLAR",
-                body : dataObj.nickName +"님이 회원님의 포스팅에 좋아요를 눌렀습니다.",
-                icon : "pholar_icon"
+            // 1. JSON Data Post 값을 수신
+        	// "{\"to\": \"" + token + "\", " +"\"imagePath\" : \"" + post.getPhoto().get(0).storage_path +"\"" +", \"nickName\" : \""
+        	// + nickName +", \"post_id\" : \"" + post.post_id +"\"}";
+        	// req.body 내용에 추가적으로 정보를 보내 Title, body, click_action, sound 를 변경할 수 있다.
+        	var dataObj = req.body;
+        	// 전송할 메시지 객체를 완성
+        	var msg = {
+        		notification : {
+        			title : "PHOLAR",
+                    body : dataObj.nickName +"님이 회원님의 포스팅에 좋아요를 눌렀습니다.",
+                    icon : "pholar_icon"
 
-    			// intent-filter 의 action- name 의 값을 넣는다.
-    			// Default 값을 넣어야 인식 한다.
-                // ==== Android Manifest.xml ====
-    			// <action android:name="NOTI_LAUNCHER" />
-    			// <category android:name="android.intent.category.DEFAULT" />
-    			// click_action : "POST_DETAIL",
-    			// res/raw/파일명 을 작성하면 된다.
-            },data :{
-                nickName : dataObj.nickName,
-    			post_id : dataObj.post_id,
-    			flag : "detail"
-            }
-    	};
+        			// intent-filter 의 action- name 의 값을 넣는다.
+        			// Default 값을 넣어야 인식 한다.
+                    // ==== Android Manifest.xml ====
+        			// <action android:name="NOTI_LAUNCHER" />
+        			// <category android:name="android.intent.category.DEFAULT" />
+        			// click_action : "POST_DETAIL",
+        			// res/raw/파일명 을 작성하면 된다.
+                },data :{
+                    nickName : dataObj.nickName,
+        			post_id : dataObj.post_id,
+        			flag : "detail"
+                }
+        	};
 
-    	// Token 값을 배열로 해야 한다.
-    	var tokens =[];
-    	tokens.push(dataObj.to);
+        	// Token 값을 배열로 해야 한다.
+        	var tokens =[];
+        	tokens.push(dataObj.to);
 
-    	admin.messaging()
-    		.sendToDevice(tokens, msg)
-            // 요청이 정상적인지에 대한 콜백
-    		.then(function(response){
-    			res.status(200).send(response);
-    		})
-            // 요청에 대한 실패
-            .catch(function(error){
-    			res.status(500).send(error);
-    		});
-    });
-    // 생략
-    ```
+        	admin.messaging()
+        		.sendToDevice(tokens, msg)
+                // 요청이 정상적인지에 대한 콜백
+        		.then(function(response){
+        			res.status(200).send(response);
+        		})
+                // 요청에 대한 실패
+                .catch(function(error){
+        			res.status(500).send(error);
+        		});
+        });
+        // 생략
+        ```
 
 4. RecyclerView
 
