@@ -22,6 +22,14 @@ __PHOLAR Lite.__ 는 사진 공유 SNS 로 유저가 사진을 필수로 한 글
 - 데이터베이스 : Firebase Realtime DB
 - 개발 도구 : Android Studio 3.0, Firebase Console
 
+## 프로젝트 관리
+
+-	개발 프로세스 : Agile/Scrum 방법론을 통해 개발
+-	문서화 : Google 스프레드 시트를 통해 관리
+-	Communication : Slack 을 통한 팀 대화
+-	소스 관리 : GitHub 로 관리
+-	회의 : 일일 미팅 후 이슈 사항 및 리뷰 작성
+
 ## 요약
 
 ![Skills&Library](https://github.com/Hooooong/Pholar/blob/master/img/skills%26Library.PNG)
